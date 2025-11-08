@@ -44,9 +44,9 @@ function Inicio() {
                 <h2>Congreso Diciembre 2026</h2>
                 <p>Universidad Tecnológica de León</p>
                 <ul>
-                  <li>Universidad Tecnológica de León, Campus 1</li>
-                  <li>Blvd. Universidad Tecnológica 225, Universidad Tecnologica.</li>
-                  <li> San Carlos la Roncha, 37670 León de los Aldama, Gto.</li>
+                  <p>Universidad Tecnológica de León, Campus 1</p>
+                  <p>Blvd. Universidad Tecnológica 225, Universidad Tecnologica</p>
+                  <p> San Carlos la Roncha, 37670 León de los Aldama, Gto.</p>
                 </ul>
               </div>
             </div>
