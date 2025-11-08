@@ -16,12 +16,12 @@ function Inicio() {
             </div>
 
             <h1 className="inicio-title mb-3">
-              Congreso React UTL
+              Congreso UTL
             </h1>
 
             <p className="inicio-subtitle mb-4">
-              Regístrate, personaliza tu gafete y consulta a todos los participantes
-              del congreso en un solo lugar.
+              Te invitamos a ser parte del Congreso de Tecnologías de la Información 2026 en la Universidad Tecnológica de León.
+              Regístrate ahora y asegura tu lugar en este evento único.
             </p>
 
             <div className="d-flex flex-wrap gap-3 align-items-center">
@@ -30,14 +30,10 @@ function Inicio() {
                 size="lg"
                 onClick={irRegistro}
               >
-                Registrarme ahora
+                Registro
               </Button>
             </div>
 
-            <p className="inicio-note mt-3">
-              No necesitas nada más que tus datos básicos. <br />
-              Toma menos de 1 minuto completar tu registro.
-            </p>
           </Col>
 
           <Col md={5} className="mt-4 mt-md-0">
@@ -48,9 +44,9 @@ function Inicio() {
                 <h2>Congreso Diciembre 2026</h2>
                 <p>Universidad Tecnológica de León</p>
                 <ul>
-                  <li>Gafete digital personalizado</li>
-                  <li>Control de participantes en tiempo real</li>
-                  <li>Interfaz inspirada en Spotify</li>
+                  <li>Universidad Tecnológica de León, Campus 1</li>
+                  <li>Blvd. Universidad Tecnológica 225, Universidad Tecnologica.</li>
+                  <li> San Carlos la Roncha, 37670 León de los Aldama, Gto.</li>
                 </ul>
               </div>
             </div>
