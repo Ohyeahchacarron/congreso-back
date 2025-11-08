@@ -27,16 +27,16 @@ function ListParticipante({ participantes }) {
     <div className="asistentes-page">
       <Container>
         <div className="asistentes-header">
-          <h2 className="asistentes-title">Listado de participantes</h2>
+          <h2 className="asistentes-title">Participantes</h2>
           <p className="asistentes-subtitle">
-            Explora a todas las personas registradas en el congreso.
+            Conoce a todos los participantes del congreso
           </p>
 
           <Form className="asistentes-search-form">
             <InputGroup>
               <Form.Control
                 type="text"
-                placeholder="Buscar por nombre o apellidos..."
+                placeholder="Buscar participante..."
                 value={busqueda}
                 onChange={(e) => setBusqueda(e.target.value)}
                 className="asistentes-search-input"
@@ -46,7 +46,7 @@ function ListParticipante({ participantes }) {
                 className="asistentes-register-btn"
                 onClick={() => navigate("/registro")}
               >
-                Registrar participante
+                Regístrate como participante
               </Button>
             </InputGroup>
           </Form>
@@ -62,7 +62,7 @@ function ListParticipante({ participantes }) {
 
         {filtrados.length === 0 && (
           <p className="text-center mt-4 text-muted">
-            No se encontraron participantes con ese nombre.
+            No existe
           </p>
         )}
       </Container>

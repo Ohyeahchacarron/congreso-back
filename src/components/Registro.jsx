@@ -120,9 +120,7 @@ const res = await fetch(`${API_BASE_URL}/api/registro/`, {        method: "POST"
                   <div className="registro-logo-circle" />
                   <div>
                     <h2 className="registro-title">Registro de participante</h2>
-                    <p className="registro-subtitle">
-                      Ingresa tus datos para generar tu gafete del congreso.
-                    </p>
+                    
                   </div>
                 </div>
 
@@ -130,7 +128,7 @@ const res = await fetch(`${API_BASE_URL}/api/registro/`, {        method: "POST"
                   <Row className="gy-3">
                     <Col md={6}>
                       <Form.Group controlId="nombre">
-                        <Form.Label>Nombre</Form.Label>
+                        <Form.Label>Nombre*</Form.Label>
                         <Form.Control
                           type="text"
                           name="nombre"
@@ -146,7 +144,7 @@ const res = await fetch(`${API_BASE_URL}/api/registro/`, {        method: "POST"
                     </Col>
                     <Col md={6}>
                       <Form.Group controlId="apellidos">
-                        <Form.Label>Apellidos</Form.Label>
+                        <Form.Label>Apellidos*</Form.Label>
                         <Form.Control
                           type="text"
                           name="apellidos"
@@ -162,7 +160,7 @@ const res = await fetch(`${API_BASE_URL}/api/registro/`, {        method: "POST"
                     </Col>
                     <Col md={6}>
                       <Form.Group controlId="correo">
-                        <Form.Label>Correo electrónico</Form.Label>
+                        <Form.Label>Correo electrónico*</Form.Label>
                         <Form.Control
                           type="email"
                           name="correo"
@@ -178,7 +176,7 @@ const res = await fetch(`${API_BASE_URL}/api/registro/`, {        method: "POST"
                     </Col>
                     <Col md={6}>
                       <Form.Group controlId="twitter">
-                        <Form.Label>Usuario de Twitter</Form.Label>
+                        <Form.Label>Usuario de Twitter* "X Actualmente" </Form.Label>
                         <Form.Control
                           type="text"
                           name="twitter"
@@ -194,7 +192,7 @@ const res = await fetch(`${API_BASE_URL}/api/registro/`, {        method: "POST"
                     </Col>
                     <Col md={6}>
                       <Form.Group controlId="ocupacion">
-                        <Form.Label>Ocupación</Form.Label>
+                        <Form.Label>Ocupación*</Form.Label>
                         <Form.Control
                           type="text"
                           name="ocupacion"
@@ -300,7 +298,7 @@ const res = await fetch(`${API_BASE_URL}/api/registro/`, {        method: "POST"
                       Cancelar
                     </Button>
                     <Button className="registro-next-btn" type="submit">
-                      Guardar registro
+                      Guardar
                     </Button>
                   </div>
                 </Form>
