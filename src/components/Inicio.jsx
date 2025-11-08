@@ -45,7 +45,7 @@ function Inicio() {
               <div className="inicio-card-circle inicio-card-circle-1" />
               <div className="inicio-card-circle inicio-card-circle-2" />
               <div className="inicio-card-content">
-                <h2>Congreso 2024</h2>
+                <h2>Congreso Diciembre 2026</h2>
                 <p>Universidad Tecnológica de León</p>
                 <ul>
                   <li>Gafete digital personalizado</li>
